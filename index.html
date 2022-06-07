@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./assests/fontawsome/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/> -->
     <!-- Css Link -->
         <link rel="stylesheet" href="./dist/output.css">
 </head>
@@ -45,10 +45,37 @@
                 <span><i class="fa-solid fa-angle-right font-light md:hidden"></i></span>
                 <a href="#" class="underline md:block hidden">shop all products</a>
             </div>
-            <div class="product-card-wrapper responsive mt-5 overflow-hidden">
+            <div class="product-card-wrapper mt-5 flex flex-nowrap gap-3 lg:gap-3">
                 <div class="product-card">
                     <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/1.webp" alt="product 1" />
+                        <img src="./assests/Images/first-line-product-img/2.jpg" alt="product 1"  class="rounded-t-sm"/>
+                        <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
+                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
+                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
+                        <a href="#" class="product-card-tittle block">The renew + protect duo <br> <span class="product-card-sub-tittle">retinoid + sunscreen</span></a>
+                        <a href="#" class="price-card-btn">add to bag <span class="font-semibold font-sans ml-2.5 md:ml-0 inline-block">$50 <del class="text-[#555555]">$60</del></span> </a>
+                    </div>
+                </div>
+                <div class="product-card hidden sm:block">
+                    <div class="relative group cursor-pointer">
+                        <img src="./assests/Images/first-line-product-img/3.jpg" alt="product 1"  class="rounded-t-sm"/>
+                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
+                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
+                        <a href="#" class="product-card-tittle block">lavender socks<br> <span class="product-card-sub-tittle">limited edition</span></a>
+                        <a href="#" class="price-card-btn">Choose Set <span class="font-semibold font-sans ml-2.5 md:ml-0 inline-block">$12</span></a>
+                    </div>
+                </div>
+                <div class="product-card hidden md:block">
+                    <div class="relative group cursor-pointer">
+                        <img src="./assests/Images/first-line-product-img/4.jpg" alt="product 1"  class="rounded-t-sm"/>
                         <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
                             <span class="text-xs leading-[18px] font-sans font-semibold">Save $5</span>
                         </div>
@@ -57,107 +84,23 @@
                         </div>
                     </div>
                     <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">The summer duo <br> <span class="product-card-sub-tittle">warm weather essentials</span></a>
+                        <a href="#" class="product-card-tittle block">The makeup set + balm<br> <span class="product-card-sub-tittle">warm weather essentials</span></a>
                         <a href="#" class="price-card-btn">Choose Set <span class="font-semibold font-sans ml-2.5 md:ml-0 inline-block">$32 <del class="text-[#555555]">$37</del></span> </a>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card hidden lg:block">
                     <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/2.jpg" alt="product 2" />
+                        <img src="./assests/Images/first-line-product-img/5.jpg" alt="product 1"  class="rounded-t-sm"/>
                         <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
-                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
+                            <span class="text-xs leading-[18px] font-sans font-semibold">Bestseller</span>
                         </div>
                         <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
                             <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
                         </div>
                     </div>
                     <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">The renew +  protect duo<br> <span class="product-card-sub-tittle">retinoid + sunscreen</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$50 <del class="text-[#555555]">$60</del></span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/3.jpg" alt="product 2" />
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">lavender Socks <br> <span class="product-card-sub-tittle">limited edition</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$12</span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/4.jpg" alt="product 4" />
-                        <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
-                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $12</span>
-                        </div>
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">the makeup set + blam dotcom<br> <span class="product-card-sub-tittle">lightweight summer basics</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$50 <del class="text-[#555555]">$60</del></span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/1.webp" alt="product 1" />
-                        <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
-                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $5</span>
-                        </div>
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">The summer duo <br> <span class="product-card-sub-tittle">warm weather essentials</span></a>
-                        <a href="#" class="price-card-btn ">Choose Set <span class="font-semibold font-sans">$32 <del class="text-[#555555]">$37</del></span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/2.jpg" alt="product 2" />
-                        <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
-                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
-                        </div>
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">The renew +  protect duo<br> <span class="product-card-sub-tittle">retinoid + sunscreen</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$50 <del class="text-[#555555]">$60</del></span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/3.jpg" alt="product 2" />
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">lavender Socks <br> <span class="product-card-sub-tittle">limited edition</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$12</span> </a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="relative group cursor-pointer">
-                        <img src="./assests/Images/first-line-product-img/4.jpg" alt="product 4" />
-                        <div class="bg-[#FAFAFB] absolute top-3 right-3 px-2 rounded-sm">
-                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $12</span>
-                        </div>
-                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                            <a href="#" class="hover:text-[#5555ff] hover:underline">Quick View</a>
-                        </div>
-                    </div>
-                    <div class="bg-[#FAFAFA] px-2.5 pb-2.5 text-center md:text-left">
-                        <a href="#" class="product-card-tittle block">the makeup set + blam dotcom<br> <span class="product-card-sub-tittle">lightweight summer basics</span></a>
-                        <a href="#" class="price-card-btn ">Add to bag <span class="font-semibold font-sans">$50 <del class="text-[#555555]">$60</del></span> </a>
+                        <a href="#" class="product-card-tittle block">balm dotcom<br> <span class="product-card-sub-tittle">universal skin salve</span></a>
+                        <a href="#" class="price-card-btn">Choose Set <span class="font-semibold font-sans ml-2.5 md:ml-0 inline-block">$12</span></a>
                     </div>
                 </div>
             </div>
@@ -178,7 +121,7 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
     <script>
         $('.responsive').slick({
@@ -213,7 +156,7 @@
                 }
             ]
             });
-    </script>
+    </script> -->
     <script src="./assests/fontawsome/js/all.js"></script>
 
 </body>

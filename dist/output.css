@@ -799,6 +799,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.flex-none {
+  flex: none;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -811,6 +815,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -819,12 +827,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-t-sm {
+  border-top-left-radius: 0.125rem;
+  border-top-right-radius: 0.125rem;
 }
 
 .bg-\[\#FAFAFB\] {
@@ -950,6 +980,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+@media (min-width: 576px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:ml-0 {
     margin-left: 0px;
@@ -965,6 +1001,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[450px\] {
     width: 450px;
+  }
+
+  .md\:gap-3 {
+    gap: 0.75rem;
   }
 
   .md\:text-left {
@@ -1001,6 +1041,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: flex-end;
   }
 
+  .lg\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1026,6 +1070,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .xl\:gap-3 {
+    gap: 0.75rem;
   }
 
   .xl\:px-0 {
