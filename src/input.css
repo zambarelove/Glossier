@@ -3,27 +3,35 @@
 @tailwind utilities;
  
 @layer components{
+
+    /* Hero Section Css */
     .hero-tittel{
         @apply text-[26px] leading-[32px] md:text-[48px] md:leading-[48px] lg:text-[36px] lg:leading-[40px] xl:text-[48px] xl:leading-[48px] font-bold font-sans text-black;
     }
     .hero-sub-tittle{
         @apply font-sans text-base leading-[20px] text-black my-[9.8px];
     }
-    .black-btn{
-        @apply bg-black hover:bg-[#333333] text-white inline-block py-[14px] px-[24px] xl:w-full rounded-[3px] text-center font-bold;
-    }
+    
     .quick-view{
         background-color: rgba(255, 255, 255, 0.5);
     }
+
+    /* Product Card Css */
     .product-card-tittle{
         @apply hover:text-[#5555ff] hover:underline text-lg leading-6 font-sans font-semibold inline-block pt-2.5 capitalize;
     }
     .product-card-sub-tittle{
         @apply text-[#555555] text-sm leading-4 hover:underline group-hover:text-[#5555ff];
     }
+    /* All Btn  */
+    .black-btn{
+        @apply bg-black hover:bg-[#333333] text-white  py-[14px] px-[24px] xl:w-full rounded-[3px] text-center font-bold;
+    }
     .price-card-btn{
         @apply bg-white text-black capitalize inline-block lg:px-5 font-semibold border border-[#d9d9d9] px-4 py-2.5 mt-2.5 xl:mt-10 hover:border-black transition-all md:px-2.5 md:py-2 md:w-full md:flex md:justify-between md:items-center text-sm;
     }
+
+    /* Pink first jumbotron */
     .pink-jumbotron{
         @apply  bg-[#FAF2F4] py-10;
     }
@@ -33,6 +41,23 @@
     .pink-jumbo-sub-tittle{
         @apply text-base leading-6 font-sans mb-3;
     }
+
+    /* Comman Section Css */
+        .section-wrapper{
+            @apply my-5 sm:mt-8 sm:mb-4 sm:mx-6 xl:mt-16 xl:mb-8 xl:mx-12;
+        }
+        .section-header{
+            @apply text-center;
+        }
+        .section-tittle{
+            @apply md:text-4xl md:leading-10 text-black font-sans font-bold;
+        }
+        .section-sub-tittle{
+            @apply my-[9.8px] text-base leading-6 font-normal font-serif;
+        }
+    /* Comman Section Css End */
+
+    /* Footer Css */
     .footer-wrapper{
         @apply bg-black pt-10 pb-16 ;
     }
