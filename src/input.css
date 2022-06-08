@@ -10,7 +10,7 @@
         @apply font-sans text-base leading-[20px] text-black my-[9.8px];
     }
     .black-btn{
-        @apply bg-black text-white inline-block py-[14px] px-[24px] rounded-[3px] text-center font-bold;
+        @apply bg-black hover:bg-[#333333] text-white inline-block py-[14px] px-[24px] xl:w-full rounded-[3px] text-center font-bold;
     }
     .quick-view{
         background-color: rgba(255, 255, 255, 0.5);
@@ -19,7 +19,7 @@
         @apply hover:text-[#5555ff] hover:underline text-lg leading-6 font-sans font-semibold inline-block pt-2.5 capitalize;
     }
     .product-card-sub-tittle{
-        @apply text-[#555555] text-sm leading-4 hover:text-[#5555ff] hover:underline;
+        @apply text-[#555555] text-sm leading-4 hover:underline group-hover:text-[#5555ff];
     }
     .price-card-btn{
         @apply bg-white text-black capitalize inline-block lg:px-5 font-semibold border border-[#d9d9d9] px-4 py-2.5 mt-2.5 xl:mt-10 hover:border-black transition-all md:px-2.5 md:py-2 md:w-full md:flex md:justify-between md:items-center text-sm;
@@ -28,12 +28,32 @@
         @apply  bg-[#FAF2F4] py-10;
     }
     .pink-jumbo-tittle{
-        @apply font-bold text-[28px] leading-[32px] md:text-[32px] md:leading-[40px] font-sans mb-3;
+        @apply text-[28px] leading-[32px] md:text-[32px] md:leading-[40px] font-sans mb-3;
     }
     .pink-jumbo-sub-tittle{
-        @apply font-semibold text-base leading-6 font-sans mb-3;
+        @apply text-base leading-6 font-sans mb-3;
     }
-    .slick-slide {
-        margin: 0 5px;
+    .footer-wrapper{
+        @apply bg-black pt-10 pb-16 ;
+    }
+    .footer-logo-type-img{
+        width: 75px;
+        height:75px;
+        border-radius: 100%;
+    }
+    @media screen and (min-width:768px) {
+        .footer-logo-type-img{
+            width: 150px;
+            height:150px;
+        }   
+    }
+    .footer-company-name{
+        @apply text-white capitalize text-xl leading-8 font-medium md:text-2xl;
+    }
+    .footer-page-link-li-a{
+        @apply text-[11px] leading-[11px] font-medium my-2.5 uppercase inline-block text-white hover:text-[#555555] hover:underline;
+    }
+    .footer-social-link{
+        @apply  hover:text-[#555555];
     }
 }
