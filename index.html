@@ -407,74 +407,194 @@
 
     <!-- Rahul dada give card for modifiy -->
         <div class="bg-white">
-        <div class="py-16 sm:py-24 lg:max-w-7xl lg:mx-auto lg:px-8">
-            <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
-                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Trending products</h2>
-                <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See everything<span aria-hidden="true"> &rarr;</span></a>
-            </div>
-        
-            <div class="mt-8 relative">
-                <div class="relative w-full pb-6 -mb-6 overflow-x-auto">
-                    <ul role="list" class="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-4 lg:gap-x-8">
-                        <li class="w-64 inline-flex flex-col text-center lg:w-auto">
-                            <div class="group relative">
-                                <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative">
-                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-product-01.jpg" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75" />
-                                    <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                        <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
-                                    </div>
-                                    <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
-                                        <a href="#" class="text-[#5555ff] hover:underline">Quick View</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5">
-                                <div class="flex justify-between items-center">
-                                    <div class="py-2.5">
-                                        <h3 class="mt-1 font-semibold text-gray-900">
-                                            <a href="#">
-                                            <span class="absolute inset-0 product-card-tittle"></span>
-                                            Machined Pen
-                                            </a>
-                                        </h3>
-                                        <p class="text-sm text-gray-500 product-card-sub-tittle">Black</p>
-                                    </div>
-                                    <div class="flex justify-center">
-                                        <ul role="list" class="mt-auto flex items-center justify-center space-x-3">
-                                            <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #111827">
-                                                <span class="sr-only"> Black </span>
-                                            </li>
-                            
-                                            <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #fde68a">
-                                                <span class="sr-only"> Brass </span>
-                                            </li>
-                            
-                                            <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #e5e7eb">
-                                                <span class="sr-only"> Chrome </span>
-                                            </li>
-                                        </ul>
+            <div class="py-16 sm:py-24 lg:px-8">
+                <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Trending products</h2>
+                    <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See everything<span aria-hidden="true"> &rarr;</span></a>
+                </div>
+            
+                <div class="mt-8 relative">
+                    <div class="relative w-full pb-6 -mb-6">
+                        <ul role="list" class="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-4 lg:gap-x-8">
+                            <li class="inline-flex flex-col text-center lg:w-auto">
+                                <div class="group relative cursor-pointer">
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden" /> 
+                                        
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden" /> 
+                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
+                                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
+                                            <a href="#" class="text-[#5555ff] hover:underline text-sm">Quick View</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a href="#" class="text-gray-900 mt-2.5 flex justify-between border-[1px] p-2 border-[#FAFAFA] hover:border-black">
-                                    <span class="inline-block capitalize text-sm">
-                                        add to bags
-                                    </span>
-                                    <span class="inline-block">
-                                        $35
-                                    </span>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
+                                    <div class="flex justify-between items-stretch">
+                                        <div class="py-2.5 group">
+                                            <h3 class="mt-1 font-semibold relative text-gray-900">
+                                                <a href="#" class="group-hover:text-blue-600">
+                                                <span class="absolute inset-0 product-card-tittle "></span>
+                                                The Summer Duo
+                                                </a>
+                                            </h3>
+                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
+                                        </div>
+                                        <div class="flex justify-center items-center">
+                                            <ul role="list" class="flex items-center justify-center space-x-3">
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #111827">
+                                                    <span class="sr-only"> Black </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #fde68a">
+                                                    <span class="sr-only"> Brass </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #e5e7eb">
+                                                    <span class="sr-only"> Chrome </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
+                                        <span class="inline-block capitalize text-sm font-semibold">
+                                            add to bags
+                                        </span>
+                                        <span class="inline-block font-semibold">
+                                            $35
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="inline-flex flex-col text-center lg:w-auto">
+                                <div class="group relative cursor-pointer">
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/007/122/portrait_normal/The_Renew___Protect_Duo_-_1.jpg?1628708783=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:hidden block" /> 
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/007/123/portrait_normal/GIF_Retinol-Cap-016-Portrait.gif?1628708831=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 hidden group-hover:block" /> 
+                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
+                                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
+                                            <a href="#" class="text-[#555555] group-hover:text-[#5555ff] hover:underline text-sm">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
+                                    <div class="flex justify-between items-stretch">
+                                        <div class="py-2.5 group">
+                                            <h3 class="mt-1 font-semibold relative text-gray-900">
+                                                <a href="#" class="group-hover:text-blue-600">
+                                                <span class="absolute inset-0 product-card-tittle"></span>
+                                                The Renew + Protect Duo 
+                                                </a>
+                                            </h3>
+                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">retinoid + sunscreen
+                                            </p>
+                                        </div>
+                                        <div class="flex justify-center items-center">
+                                            <ul role="list" class="flex items-center justify-center space-x-3">
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #111827">
+                                                    <span class="sr-only"> Black </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #fde68a">
+                                                    <span class="sr-only"> Brass </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #e5e7eb">
+                                                    <span class="sr-only"> Chrome </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
+                                        <span class="inline-block capitalize text-sm font-semibold">
+                                            add to bags
+                                        </span>
+                                        <span class="inline-block font-semibold">
+                                            $35
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="inline-flex flex-col text-center lg:w-auto">
+                                <div class="group relative cursor-pointer">
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/007/658/portrait_normal/Lavender-socks_1-main.jpg?1651000604=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:hidden block" /> 
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/007/659/portrait_normal/Lavender-socks-_1-hover.jpg?1651000634=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 hidden group-hover:block" /> 
+                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
+                                            <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5">
+                                            <a href="#" class="text-[#555555] group-hover:text-[#5555ff] hover:underline text-sm">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
+                                    <div class="flex justify-between items-stretch">
+                                        <div class="py-2.5 group">
+                                            <h3 class="mt-1 font-semibold relative text-gray-900">
+                                                <a href="#" class="group-hover:text-blue-600">
+                                                <span class="absolute inset-0 product-card-tittle"></span>
+                                                Lavender Socks
+                                                </a>
+                                            </h3>
+                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">limited edition</p>
+                                        </div>
+                                        <div class="flex justify-center items-center">
+                                            <ul role="list" class="flex items-center justify-center space-x-3">
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #111827">
+                                                    <span class="sr-only"> Black </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #fde68a">
+                                                    <span class="sr-only"> Brass </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10" style="background-color: #e5e7eb">
+                                                    <span class="sr-only"> Chrome </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
+                                        <span class="inline-block capitalize text-sm font-semibold">
+                                            add to bags
+                                        </span>
+                                        <span class="inline-block font-semibold">
+                                            $35
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+                
+                <div class="mt-12 flex px-4 sm:hidden">
+                    <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-500">See everything to you<span aria-hidden="true"> &rarr;</span></a>
                 </div>
             </div>
-        
-            <div class="mt-12 flex px-4 sm:hidden">
-                <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-500">See everything to you<span aria-hidden="true"> &rarr;</span></a>
-            </div>
-        </div>
-    </div> 
+        </div> 
     <!-- Rahul dada give card for modifiy -->
+
+
+    <!-- <div class="container section-wraappr">
+        <ul class="flex gap-4">
+            <li>
+                <div class="group relative">
+                    <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/347/portrait_normal/haloscopequartzcompressed.gif?1557167317=&w=600&q=80&fm=webp" alt="" class="block group-hover:hidden" />
+                    <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/346/portrait_normal/haloscope_hand.jpg?1551583857=&w=600&q=80&fm=webp" alt="" class="group-hover:block hidden" />
+                    <span class="absolute top-3 right-3 py-1 px-1.5 bg-slate-50 text-xs">Save $10</span>
+                    <span class="absolute bottom-0 left-0 right-0 py-1 bg-gray-50 text-center"> 
+                        <a href="#" class="text-sm underline text-[#555555] hover:text-blue-600">Qucik view</a>
+                    </span>
+                </div>
+            </li>
+            
+        </ul>
+    </div> -->
 
     <!-- Footer -->
         <div class="footer-wrapper">
