@@ -37,9 +37,9 @@
         .hero-sub-tittle{
             @apply font-sans text-base leading-[20px] text-black my-[9.8px];
         }
-        .quick-view{
+        /* .quick-view{
             background-color: rgba(255, 255, 255, 0.5);
-        }
+        } */
     /* Hero Section Css End */
 
     /* Product Card Css */
