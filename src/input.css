@@ -39,22 +39,4 @@
             @apply text-sm leading-4 hover:underline font-normal text-[#555555] group-hover:text-[#5555ff] lowercase;
         }
     /* Product Card Css End */
-
-
-    /* Footer Css */
-        @media screen and (min-width:768px) {
-            .footer-logo-type-img{
-                width: 150px;
-                height:150px;
-            }   
-        }
-        .footer-company-name{
-            @apply text-white capitalize text-xl leading-8 font-medium md:text-2xl;
-        }
-        .footer-page-link-li-a{
-            @apply text-[11px] leading-[11px] font-medium my-2.5 uppercase inline-block text-white hover:text-[#555555] hover:underline;
-        }
-        .footer-social-link{
-            @apply  hover:text-[#555555];
-        }
 }
