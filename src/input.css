@@ -37,9 +37,7 @@
         .hero-sub-tittle{
             @apply font-sans text-base leading-[20px] text-black my-[9.8px];
         }
-        /* .quick-view{
-            background-color: rgba(255, 255, 255, 0.5);
-        } */
+     
     /* Hero Section Css End */
 
     /* Product Card Css */
@@ -57,13 +55,7 @@
  
 
     /* Pink first jumbotron */
-        .pink-jumbotron{
-            @apply  bg-[#FAF2F4] py-10;
-        }
-        .pink-jumbo-tittle{
-            @apply text-[28px] leading-[32px] md:text-[32px] md:leading-[40px] font-sans mb-3;
-        }
-        .pink-jumbo-sub-tittle{
+        .jumbotron-sub-tittle{
             @apply text-base leading-6 font-sans mb-3;
         }
     /* Pink first jumbotron */
@@ -72,11 +64,6 @@
     /* Footer Css */
         .footer-wrapper{
             @apply bg-black pt-10 pb-16 ;
-        }
-        .footer-logo-type-img{
-            width: 75px;
-            height:75px;
-            border-radius: 100%;
         }
         @media screen and (min-width:768px) {
             .footer-logo-type-img{
