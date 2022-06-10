@@ -28,18 +28,6 @@
         }
     /* All Btn End */
 
-
-
-    /* Hero Section Css */
-        .hero-tittel{
-            @apply text-[26px] leading-[32px] md:text-[48px] md:leading-[48px] lg:text-[36px] lg:leading-[40px] xl:text-[48px] xl:leading-[48px] font-bold font-sans text-black;
-        }
-        .hero-sub-tittle{
-            @apply font-sans text-base leading-[20px] text-black my-[9.8px];
-        }
-     
-    /* Hero Section Css End */
-
     /* Product Card Css */
         .save-label{
             @apply text-xs leading-[18px] font-sans font-semibold absolute top-3 right-3 rounded-sm py-[3px] px-2 bg-[#FAFAFB] h-[23px] text-[#000000] capitalize;
@@ -52,19 +40,8 @@
         }
     /* Product Card Css End */
 
- 
-
-    /* Pink first jumbotron */
-        .jumbotron-sub-tittle{
-            @apply text-base leading-6 font-sans mb-3;
-        }
-    /* Pink first jumbotron */
-
 
     /* Footer Css */
-        .footer-wrapper{
-            @apply bg-black pt-10 pb-16 ;
-        }
         @media screen and (min-width:768px) {
             .footer-logo-type-img{
                 width: 150px;

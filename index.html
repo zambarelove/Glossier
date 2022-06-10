@@ -7,265 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./assests/fontawsome/css/all.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <!-- Css Link -->
         <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body class="m-0 p-0 box-border">
-    <!-- Feature Product -->
-        <div class="container mb-10 px-4">
-            <div class="flex items-center justify-between py-5">
-                <h4 class="text-xs leading-[14px] font-bold font-sans uppercase">shop our featured products</h4>
-                <a href="#" class="underline md:block hidden text-sm leading-[16px] hover:text-[#0000c2]">shop all products</a>
-            </div>
-            <div class="mt-5 flex items-stretch gap-3.5">
-                <ul role="list" class="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-4 lg:gap-x-8">
-                    <li class="inline-flex flex-col text-centerv lg:w-auto">
-                        <div class="group relative cursor-pointer">
-                            <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden" /> 
-                                
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden" /> 
-                                <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                    <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
-                                </div>
-                                <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center bg-[FF0000] transition-all duration-700 group py-1.5">
-                                    <a href="#" class="text-[#5555ff] hover:underline text-sm">Quick View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                            <div>
-                                <div class="py-2.5 group">
-                                    <h3 class="mt-1 font-bold relative text-gray-900">
-                                        <a href="#" class="group-hover:text-blue-600">
-                                        The Summer Duo
-                                        </a>
-                                    </h3>
-                                    <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                </div>
-                                <div class="flex items-center my-2.5">
-                                    <ul role="list" class="flex items-center justify-center space-x-3">
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                            <span class="sr-only"> Black </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                            <span class="sr-only"> Brass </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                            <span class="sr-only"> Chrome </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                <span class="inline-block capitalize text-sm font-semibold">
-                                    add to bags
-                                </span>
-                                <span class="inline-block font-semibold">
-                                    $35
-                                </span>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hidden flex-col text-center lg:w-auto">
-                        <div class="group relative cursor-pointer">
-                            <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden" /> 
-                                
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden" /> 
-                                <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                    <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
-                                </div>
-                                <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-[FF0000]">
-                                    <a href="#" class="text-[#5555ff] hover:underline text-sm ">Quick View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                            <div>
-                                <div class="py-2.5 group">
-                                    <h3 class="mt-1 font-bold relative text-gray-900">
-                                        <a href="#" class="group-hover:text-blue-600">
-                                        The Summer Duo
-                                        </a>
-                                    </h3>
-                                    <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                </div>
-                                <div class="flex items-center my-2.5">
-                                    <ul role="list" class="flex items-center justify-center space-x-3">
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                            <span class="sr-only"> Black </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                            <span class="sr-only"> Brass </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                            <span class="sr-only"> Chrome </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                <span class="inline-block capitalize text-sm font-semibold">
-                                    add to bags
-                                </span>
-                                <span class="inline-block font-semibold">
-                                    $35
-                                </span>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hidden flex-col text-center lg:w-auto">
-                        <div class="group relative cursor-pointer">
-                            <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden" /> 
-                                
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden" /> 
-                                <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                    <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
-                                </div>
-                                <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-[FF0000]">
-                                    <a href="#" class="text-[#5555ff] hover:underline text-sm">Quick View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                            <div>
-                                <div class="py-2.5 group">
-                                    <h3 class="mt-1 font-bold relative text-gray-900">
-                                        <a href="#" class="group-hover:text-blue-600">
-                                        The Summer Duo
-                                        </a>
-                                    </h3>
-                                    <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                </div>
-                                <div class="flex items-center my-2.5">
-                                    <ul role="list" class="flex items-center justify-center space-x-3">
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                            <span class="sr-only"> Black </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                            <span class="sr-only"> Brass </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                            <span class="sr-only"> Chrome </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                <span class="inline-block capitalize text-sm font-semibold">
-                                    add to bags
-                                </span>
-                                <span class="inline-block font-semibold">
-                                    $35
-                                </span>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="hidden flex-col text-center lg:w-auto">
-                        <div class="group relative cursor-pointer">
-                            <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden" /> 
-                                
-                                <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden" /> 
-                                <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                    <span class="text-xs leading-[18px] font-sans font-semibold">Save $10</span>
-                                </div>
-                                <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-[FF0000]">
-                                    <a href="#" class="text-[#5555ff] hover:underline text-sm">Quick View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                            <div>
-                                <div class="py-2.5 group">
-                                    <h3 class="mt-1 font-bold relative text-gray-900">
-                                        <a href="#" class="group-hover:text-blue-600">
-                                        The Summer Duo
-                                        </a>
-                                    </h3>
-                                    <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                </div>
-                                <div class="flex items-center my-2.5">
-                                    <ul role="list" class="flex items-center justify-center space-x-3">
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                            <span class="sr-only"> Black </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                            <span class="sr-only"> Brass </span>
-                                        </li>
-                        
-                                        <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                            <span class="sr-only"> Chrome </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                <span class="inline-block capitalize text-sm font-semibold">
-                                    add to bags
-                                </span>
-                                <span class="inline-block font-semibold">
-                                    $35
-                                </span>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    <!-- Feature Product Section End -->
-   
-    <!-- Jumbotron -->
-        <div class="bg-[#FAF2F4] py-10 mt-5">
-            <div class="container px-4">
-                <h4 class="font-sans mb-3 text-[28px] leading-[32px] md:text-[32px] md:leading-[40px]">Beauty inspired by real life.</h4>
-                <p class="jumbotron-sub-tittle">Glossier is a new approach to beauty. It’s about fun and freedom and being OK with yourself today. We make <br class="lg:block hidden"> intuitive, uncomplicated products designed to live with you.</p>
-            </div>
-        </div>
-    <!-- Jumbotron End -->
+<body>
 
     <!-- Skin first -->
-        <div class="container">
-            <div class="section-wrapper">
-                <div class="section-header">
-                    <h3 class="section-tittle">Skin first.</h3>
-                    <p class="section-sub-tittle">Our skincare essentials are designed to make you look and feel your glowy, dewy<br /> best before you even think about makeup.</p>
-                    <a href="#" class="black-btn">Shop all Skincare</a>
-                </div>
-                <div class="product-section-wrapper flex flex-col-reverse md:flex md:flex-row">
-                    <div class="md:w-2/4">
-                        <img src="https://images.ctfassets.net/p3w8f4svwgcg/1RBZUHK0czYoegQe0VhdYS/85c943302f7385b5a34d4239cb4b2b6b/Homepage_Skincare_Desktop.jpg?w=960&q=80&fm=webp" alt="left img" class="w-full h-full"/>
-                    </div> 
-                    
-                </div>
+        <!-- <div class="container">
+        <div class="section-wrapper">
+            <div class="section-header">
+                <h3 class="section-tittle">Skin first.</h3>
+                <p class="section-sub-tittle">Our skincare essentials are designed to make you look and feel your glowy, dewy<br /> best before you even think about makeup.</p>
+                <a href="#" class="black-btn">Shop all Skincare</a>
+            </div>
+            <div class="product-section-wrapper flex flex-col-reverse md:flex md:flex-row">
+                <div class="md:w-2/4">
+                    <img src="https://images.ctfassets.net/p3w8f4svwgcg/1RBZUHK0czYoegQe0VhdYS/85c943302f7385b5a34d4239cb4b2b6b/Homepage_Skincare_Desktop.jpg?w=960&q=80&fm=webp" alt="left img" class="w-full h-full"/>
+                </div> 
+                
             </div>
         </div>
+        </div> -->
     <!-- Skin first End -->
 
     <!-- Makeup Secound -->
-        <div class="container">
-            <div class="section-wrapper ">
+        <!-- <div class="container">
+            <div class="section-wrapper">
                 <div class="section-header">
                     <h3 class="section-tittle">Makeup second.</h3>
                     <p class="section-sub-tittle">Products that give you options but never cover you up, turn you into someone else, <br /> or over-complicate your routine. Because beauty should make you feel good.</p>
                     <a href="#" class="black-btn">Shop all Makeup</a>
                 </div>
                 <div class="flex flex-col-reverse md:flex md:flex-row-reverse items-stretch gap-5">
-                    <div class="">
+                    <div>
                         <img src="https://images.ctfassets.net/p3w8f4svwgcg/7m9Yd5o90sCuVEFsiRlZic/fa318c31213cc27297d11c8de47eb416/NewHP_Makeup_Enga.jpg?w=960&q=80&fm=webp" alt="left img" class="w-full h-full"/>
                     </div> 
-                    <div  class="">
+                    <div>
                         <ul role="list" class="w-full mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
                             <li class="inline-flex flex-col text-center">
                                 <div class="group relative cursor-pointer">
@@ -579,8 +358,52 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     <!-- Makeup Secound End -->
+
+    <!-- Jumbotron -->
+        <div class="jumbotron bg-[#F5E3E7] py-10 mt-8">
+            <div class="container jumbotron__wrappaer px-4">
+                <h4 class="jumbotron jumbotron__title font-serif text-[28px] leading-8 md:text-[32px] md:leading-10 text-black">
+                    Beauty inspired by real life.
+                </h4>
+                <p class="jumbotron__sub-title font-serif text-base leading-6 my-[9.8px] md:w-[66%] font-normal">
+                    Glossier is a new approach to beauty. It’s about fun and freedom and being OK with yourself today. We make intuitive, uncomplicated products designed to live with you.
+                </p>
+            </div>
+        </div>
+    <!-- Jumbotron End -->
+
+    <!-- About  -->
+        <div class="about-us bg-[#F5E3E7] py-14 mt-5">
+            <div class="container about-us__wrapper">
+                <h3 class="about-us__title font-sans font-bold text-2xl leading-8 md:text-[28px] md:leading-8 text-center md:text-left mb-14">About <i>Glossier</i>.</h3>
+                <div class="flex flex-row flex-wrap md:flex-nowrap gap-10 md:gap-5">
+                    <div>
+                        <img src="https://images.ctfassets.net/p3w8f4svwgcg/7f1uo2wuLll6c1Fz1bt3Qc/346f392df86a664bc844b8c151062ece/icon-smile.svg" alt="smile img" class="aspect-square w-8 h-8 mb-4 mx-auto md:mx-0"/>
+                        
+                        <p class="font-sans text-sm leading-5 text-center md:text-left">
+                            We got our start with Into The Gloss, the world’s best beauty website and our source for inspiration and information.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://images.ctfassets.net/p3w8f4svwgcg/9SvmYXc4c4rXROPJep3xr/649ea985771bd78d3cad59e4c439bd3b/lip.svg" alt="smile img"  class="aspect-square w-8 h-8 mb-4 mx-auto md:mx-0"/>
+                        
+                        <p class="font-sans text-sm leading-5 text-center md:text-left">
+                            As beauty editors, we’ve tried it all. We make our dream everyday products that don’t yet exist, are fun to use, and actually work.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://images.ctfassets.net/p3w8f4svwgcg/7EMG9OY0YBZmflEtFkAMZh/ae82ccb661a64d9c57cea295025ce511/bolt.svg" alt="smile img"  class="aspect-square w-8 h-8 mb-4 mx-auto md:mx-0"/>
+                        
+                        <p class="font-sans text-sm leading-5 text-center md:text-left">
+                            As beauty editors, we’ve tried it all. We make our dream everyday products that don’t yet exist, are fun to use, and actually work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- About End -->
 
     <!-- Rahul dada give card for modifiy -->
         <div class="bg-white">
@@ -592,18 +415,65 @@
             
                 <div class="mt-8 relative">
                     <div class="relative w-full pb-6 -mb-6">
-                        <ul role="list" class="mx-4 inline-flex space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-4 lg:gap-x-8">
+                        <ul role="list" class="mx-4 inline-flex md:space-x-8 sm:mx-6 lg:mx-0 lg:space-x-0 lg:grid lg:grid-cols-4 lg:gap-x-8">
                             <li class="inline-flex flex-col text-center">
                                 <div class="group relative cursor-pointer">
-                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden"/> 
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden relative">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover block group-hover:hidden"/> 
                                         
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden"/> 
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:block hidden"/> 
                                         <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
                                             <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
                                         </div>
-                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-white">
-                                            <a href="#" class="text-[#5555ff] hover:underline text-sm bg-white">Quick View</a>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center transition-all duration-700 group py-1.5 bg-white">
+                                            <a href="#" class="font-sans font-semibold text-sm text-[#555555] hover:underline bg-white">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
+                                    <div>
+                                        <div class="py-2.5 group">
+                                            <h3 class="mt-1 font-bold relative text-gray-900">
+                                                <a href="#" class="group-hover:text-blue-600">
+                                                <span class="absolute inset-0 product-card-tittle "></span>
+                                                The Summer Duo
+                                                </a>
+                                            </h3>
+                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
+                                        </div>
+                                        <div class="flex items-center my-2.5">
+                                            <ul role="list" class="flex items-center justify-center space-x-3">
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
+                                                    <span class="sr-only"> Black </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
+                                                    <span class="sr-only"> Brass </span>
+                                                </li>
+                                
+                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
+                                                    <span class="sr-only"> Chrome </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
+                                        <span class="inline-block text-sm leading-4 font-semibold capitalize">choose set</span>
+                                        <span class="inline-block text-sm leading-4">$35</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="hidden sm:inline-flex flex-col text-center">
+                                <div class="group relative cursor-pointer">
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden relative">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover block group-hover:hidden"/> 
+                                        
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:block hidden"/> 
+                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
+                                            <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center transition-all duration-700 group py-1.5 bg-white">
+                                            <a href="#" class="font-sans font-semibold text-sm text-[#555555] hover:underline bg-white">Quick View</a>
                                         </div>
                                     </div>
                                 </div>
@@ -638,23 +508,23 @@
                                         <span class="inline-block capitalize text-sm font-semibold">
                                             add to bags
                                         </span>
-                                        <span class="inline-block font-semibold">
-                                            $35
+                                        <span class="inline-block font-bold text-sm leading-4">
+                                            $52
                                         </span>
                                     </a>
                                 </div>
                             </li>
-                            <li class="inline-flex flex-col text-center">
+                            <li class="hidden lg:inline-flex flex-col text-center">
                                 <div class="group relative cursor-pointer">
-                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden"/> 
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden relative">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover block group-hover:hidden"/> 
                                         
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden"/> 
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:block hidden"/> 
                                         <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
                                             <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
                                         </div>
-                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-white">
-                                            <a href="#" class="text-[#5555ff] hover:underline text-sm bg-white">Quick View</a>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center transition-all duration-700 group py-1.5 bg-white">
+                                            <a href="#" class="font-sans font-semibold text-sm text-[#555555] hover:underline bg-white">Quick View</a>
                                         </div>
                                     </div>
                                 </div>
@@ -689,23 +559,23 @@
                                         <span class="inline-block capitalize text-sm font-semibold">
                                             add to bags
                                         </span>
-                                        <span class="inline-block font-semibold">
-                                            $35
+                                        <span class="inline-block font-bold text-sm leading-4">
+                                            $52
                                         </span>
                                     </a>
                                 </div>
                             </li>
-                            <li class="inline-flex flex-col text-center">
+                            <li class="hidden xl:inline-flex flex-col text-center">
                                 <div class="group relative cursor-pointer">
-                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden"/> 
+                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden relative">
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover block group-hover:hidden"/> 
                                         
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden"/> 
+                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:block hidden"/> 
                                         <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
                                             <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
                                         </div>
-                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-white">
-                                            <a href="#" class="text-[#5555ff] hover:underline text-sm bg-white">Quick View</a>
+                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center transition-all duration-700 group py-1.5 bg-white">
+                                            <a href="#" class="font-sans font-semibold text-sm text-[#555555] hover:underline bg-white">Quick View</a>
                                         </div>
                                     </div>
                                 </div>
@@ -740,110 +610,8 @@
                                         <span class="inline-block capitalize text-sm font-semibold">
                                             add to bags
                                         </span>
-                                        <span class="inline-block font-semibold">
-                                            $35
-                                        </span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="inline-flex flex-col text-center">
-                                <div class="group relative cursor-pointer">
-                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden"/> 
-                                        
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden"/> 
-                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                            <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
-                                        </div>
-                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-white">
-                                            <a href="#" class="text-[#5555ff] hover:underline text-sm bg-white">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                                    <div>
-                                        <div class="py-2.5 group">
-                                            <h3 class="mt-1 font-bold relative text-gray-900">
-                                                <a href="#" class="group-hover:text-blue-600">
-                                                <span class="absolute inset-0 product-card-tittle "></span>
-                                                The Summer Duo
-                                                </a>
-                                            </h3>
-                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                        </div>
-                                        <div class="flex items-center my-2.5">
-                                            <ul role="list" class="flex items-center justify-center space-x-3">
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                                    <span class="sr-only"> Black </span>
-                                                </li>
-                                
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                                    <span class="sr-only"> Brass </span>
-                                                </li>
-                                
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                                    <span class="sr-only"> Chrome </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                        <span class="inline-block capitalize text-sm font-semibold">
-                                            add to bags
-                                        </span>
-                                        <span class="inline-block font-semibold">
-                                            $35
-                                        </span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="inline-flex flex-col text-center">
-                                <div class="group relative cursor-pointer">
-                                    <div class="w-full bg-gray-200 rounded-tr-md rounded-tl-md overflow-hidden aspect-w-1 aspect-h-1 relative ">
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/888/portrait_normal/Invisible_Shield___Balm_Dotcom_main.jpg?1620764828=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 block group-hover:hidden"/> 
-                                        
-                                        <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/005/890/portrait_normal/Invisible_Shield___Balm_Dotcom_hover_(1).jpg?1620765261=&w=600&q=80&fm=webp" alt="Black machined steel pen with hexagonal grip and small white logo at top." class="w-full h-full object-center object-cover group-hover:opacity-75 group-hover:block hidden"/> 
-                                        <div class="bg-white absolute top-3 right-3 px-2 rounded-sm">
-                                            <span class="font-sans font-semibold text-xs leading-[18px]">Save $10</span>
-                                        </div>
-                                        <div class="absolute bottom-0 left-0 right-0 w-full group-hover:block hidden text-center quick-view transition-all duration-700 group py-1.5 bg-white">
-                                            <a href="#" class="text-[#5555ff] hover:underline text-sm bg-white">Quick View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-left bg-[#FAFAFA] pb-2.5 px-2.5 flex flex-col justify-between h-full">
-                                    <div>
-                                        <div class="py-2.5 group">
-                                            <h3 class="mt-1 font-bold relative text-gray-900">
-                                                <a href="#" class="group-hover:text-blue-600">
-                                                <span class="absolute inset-0 product-card-tittle "></span>
-                                                The Summer Duo
-                                                </a>
-                                            </h3>
-                                            <p class="text-sm text-gray-500 product-card-sub-tittle group-hover:text-blue-600">warm weather essentials</p>
-                                        </div>
-                                        <div class="flex items-center my-2.5">
-                                            <ul role="list" class="flex items-center justify-center space-x-3">
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#111827]">
-                                                    <span class="sr-only"> Black </span>
-                                                </li>
-                                
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#fde68a]">
-                                                    <span class="sr-only"> Brass </span>
-                                                </li>
-                                
-                                                <li class="w-4 h-4 rounded-full border border-black border-opacity-10 bg-[#e5e7eb]">
-                                                    <span class="sr-only"> Chrome </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="text-gray-900 bg-white mt-2.5 flex justify-between border-[1px] p-2 border-[#D9D9D9] hover:border-black">
-                                        <span class="inline-block capitalize text-sm font-semibold">
-                                            add to bags
-                                        </span>
-                                        <span class="inline-block font-semibold">
-                                            $35
+                                        <span class="inline-block font-bold text-sm leading-4">
+                                            $52
                                         </span>
                                     </a>
                                 </div>
@@ -860,10 +628,10 @@
     <!-- Rahul dada give card for modifiy -->
 
     <!-- Footer -->
-        <div class="footer-wrapper">
+        <footer class="footer bg-black pt-10 pb-16">
             <div class="container">
                 <!-- fisrt line -->
-                <div class="flex-col-reverse md:flex md:flex-row-reverse justify-between items-center">
+                <div class="flex-col-reverse md:flex md:flex-row-reverse justify-between items-center mt-5 md:mt-0">
                     <div class="lg:w-[281px]">
                         <form class="text-white relative mb-10 md:mb-0">
                             <select name="Country" class="w-full bg-transparent focus:outline-none">
@@ -879,9 +647,9 @@
                             <span class="inline-block absolute -top-3 left-1 text-xs text-white">Country</span>
                         </form>
                     </div>
-                    <div class="flex gap-8 items-center">
+                    <div class="flex gap-8 items-center px-2 lg:px-0">
                         <div>
-                            <img src="./assests/Images/footer-img/footer-logo.png" alt="footer-logo" class="w-[75px] h-[75px] rounded-full"/>
+                            <img src="./assests/Images/footer-img/footer-logo.png" alt="footer-logo" class="w-[75px] h-[75px] md:w-[144px] md:h-[144px] rounded-full object-cover" />
                         </div>
                         <div>
                             <h3 class="footer-company-name">Glossier Stores</h3>
@@ -889,20 +657,23 @@
                         </div>
                     </div>
                 </div>
-                <span class="inline-block lg:my-6"></span>
+                <hr class="my-6 opacity-0" />
                 <!-- second line -->
-                <div class="md:flex md:flex-row justify-between">
-                    <div class="md:w-[40%]">
+                <div class="md:flex md:flex-row  items-center gap-x-8">
+                    <div class="md:w-[40%] px-2">
                         <h6 class="text-sm text-white font-semibold mb-1">We also make emails.</h6>
                         <p class="text-sm leading-4 font-normal text-white mb-5">Receive email updates on stuff you’ll probably want to know about, including <br class="lg:block hidden"> products, launches, and events. Unsubscribe anytime.</p>
                         <div>
-                            <form action="" class="flex items-center justify-between  relative">
+                            <form class="flex items-center justify-between relative">
                                 <input type="email" name="email" class="border-[1px] border-white rounded-[3px] bg-transparent w-full md:w-[90%] placeholder:text-white p-2.5 text-white" placeholder="Your email_">
-                                <span class="absolute top-2/4 -translate-y-2/4 right-5 md:right-10 lg:right-14 xl:right-16"><i class="fa-solid fa-arrow-right-long text-white text-sm"></i></span>
+                                
+                                <span class="absolute top-2/4 -translate-y-2/4 right-5 md:right-10 lg:right-14 xl:right-16">
+                                    <i class="fa-solid fa-arrow-right-long text-white text-sm"></i>
+                                </span>
                             </form>
                         </div>
                     </div>
-                    <div class="md:w-2/4 md:flex hidden">
+                    <div class="flex-1 hidden md:flex">
                         <div class="flex-1">
                             <h6 class="text-[#777678] text-xs leading-4 mb-2.5 font-normal font-sans uppercase">about Glossier</h6>
                             <ul>
@@ -972,33 +743,33 @@
                         <div>
                             <svg aria-hidden="true" width="32px" height="32px" fill="white" viewBox="0 0 24 32" transform="rotate(0)" class="Icon-sc-1ny8wc9-0 yhhJt"><path d="M23.84 17.4l-.003-7.886c0-1.01-.827-.955-1.37-.638-1.899 1.1-5.596 3.306-6.105 3.548-.38.18-.646.488-.646.949 0 1.148.168 2.686.168 3.98 0 1.97-.313 3.493-1.782 4.305-.89.488-2.377.368-3.723-.982-4.447-4.467-1.313-15.168 9.983-16.798.241-.033.435-.067.593-.093.263-.04.465-.228.465-.502 0-.23-.16-.404-.366-.484l-.346-.134c-.598-.22-5.362-1.922-6.965-2.519C13.14-.079 12.354.01 12.09.063-1.907 3.1-3.713 19.978 6.477 26.619c.108.07.559.343 1.055.055 1.386-.8 5.416-3.193 7.076-4.099 3.566-1.946 6.206-1.657 7.502.112.882 1.208.805 2.897.023 3.93-.944 1.248-2.7 1.405-3.612.375-.674-.762-1.839-1.387-3.034-1.154-1.283.245-2.404 1.134-2.549 2.549-.168 1.672.987 3.134 2.709 3.49 3.842.8 8.207-2.384 8.207-7.633l-.003-1.934c-.005-1.433-.01-3.174-.01-4.91z" fill-rule="evenodd"></path></svg>
                         </div>
-                        <div>
+                        <div class="mb-8">
                             <div>
                                 <p class="text-white text-sm">&copy; 2022 Glossier. All rights reserved.</p>
                             </div>
                             <div>
-                                <ul class="flex flex-wrap justify-around md:justify-between space-x-0 md:space-x-3 xl:space-x-5">
+                                <ul class="flex flex-wrap justify-around md:justify-between space-x-1 xl:space-x-5">
                                     <li>
-                                        <a href="#" class="underline text-xs leading-4 text-white hover:text-[#e9e9e9] capitalize">privacy policy</a>
+                                        <a href="#" class="text-xs leading-4 text-white hover:text-[#e9e9e9] underline capitalize">privacy policy</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="underline text-xs leading-4 text-white hover:text-[#e9e9e9] capitalize">terms of use</a>
+                                        <a href="#" class="text-xs leading-4 text-white hover:text-[#e9e9e9] underline capitalize">terms of use</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="underline text-xs leading-4 text-white hover:text-[#e9e9e9] capitalize">Accessibility</a>
+                                        <a href="#" class="text-xs leading-4 text-white hover:text-[#e9e9e9] underline capitalize">Accessibility</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="underline text-xs leading-4 text-white hover:text-[#e9e9e9] capitalize">Supply Chain Transparency</a>
+                                        <a href="#" class="text-xs leading-4 text-white hover:text-[#e9e9e9] underline capitalize">Supply Chain Transparency</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="underline text-xs leading-4 text-white hover:text-[#e9e9e9] capitalize">Cookie Settings</a>
+                                        <a href="#" class="text-xs leading-4 text-white hover:text-[#e9e9e9] underline capitalize">Cookie Settings</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <ul class="flex list-none justify-center md:justify-between space-x-5">
+                        <ul class="flex list-none justify-center md:justify-between space-x-5 mb-2.5">
                             <li>
                                 <a href="#" class="text-white hover:text-[#777678] text-xl leading-[21px]"><i class="fa-brands fa-instagram"></i></a>
                             </li>
@@ -1021,7 +792,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     <!-- Footer End -->
     <script src="./assests/fontawsome/js/all.js"></script>
 </body>
